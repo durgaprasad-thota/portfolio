@@ -26,28 +26,40 @@
                 extend: {
                     colors: {
                         primary: {
-                            50: '#faf5ff',
-                            100: '#f3e8ff',
-                            200: '#e9d5ff',
-                            300: '#d8b4fe',
-                            400: '#c084fc',
-                            500: '#a855f7',
-                            600: '#9333ea',
-                            700: '#7c3aed',
-                            800: '#6b21a8',
-                            900: '#581c87',
+                            50: '#fef2f2',
+                            100: '#fee2e2',
+                            200: '#fecaca',
+                            300: '#fca5a5',
+                            400: '#f87171',
+                            500: '#ef4444',
+                            600: '#dc2626',
+                            700: '#b91c1c',
+                            800: '#991b1b',
+                            900: '#7f1d1d',
                         },
                         accent: {
-                            50: '#ecfdf5',
-                            100: '#d1fae5',
-                            200: '#a7f3d0',
-                            300: '#6ee7b7',
-                            400: '#34d399',
-                            500: '#10b981',
-                            600: '#059669',
-                            700: '#047857',
-                            800: '#065f46',
-                            900: '#064e3b',
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        warm: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            300: '#fcd34d',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
                         }
                     }
                 }
@@ -94,7 +106,7 @@
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-slate-50 via-purple-50 to-indigo-50">
+<body class="bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50">
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -121,7 +133,7 @@
                         Durga Prasad Thota
                     </div>
                 </div>
-                <h2 class="text-2xl md:text-3xl text-primary-600 mb-8">
+                <h2 class="text-2xl md:text-3xl text-accent-600 mb-8">
                     Test Automation Engineer
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
@@ -133,7 +145,7 @@
                     <a href="#projects" class="bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
                         View Projects
                     </a>
-                    <a href="#contact" class="bg-primary-100 hover:bg-primary-200 text-primary-800 font-medium py-2 px-4 rounded-lg transition-colors duration-200">
+                    <a href="#contact" class="bg-warm-100 hover:bg-warm-200 text-warm-800 font-medium py-2 px-4 rounded-lg transition-colors duration-200">
                         Get In Touch
                     </a>
                 </div>
@@ -164,19 +176,19 @@
                 </div>
                 <div class="grid grid-cols-2 gap-4 slide-up">
                     <div class="card bg-white rounded-xl shadow-lg border border-gray-200 p-6 text-center">
-                                            <div class="text-3xl font-bold text-accent-600 mb-2">50%</div>
+                                            <div class="text-3xl font-bold text-primary-600 mb-2">50%</div>
                     <div class="text-gray-600">Reduction in Testing Time</div>
                 </div>
                 <div class="card bg-white rounded-xl shadow-lg border border-gray-200 p-6 text-center">
-                    <div class="text-3xl font-bold text-accent-600 mb-2">35%</div>
+                    <div class="text-3xl font-bold text-primary-600 mb-2">35%</div>
                     <div class="text-gray-600">Improved Bug Detection</div>
                 </div>
                 <div class="card bg-white rounded-xl shadow-lg border border-gray-200 p-6 text-center">
-                    <div class="text-3xl font-bold text-accent-600 mb-2">800+</div>
+                    <div class="text-3xl font-bold text-primary-600 mb-2">800+</div>
                     <div class="text-gray-600">Test Cases Created</div>
                 </div>
                 <div class="card bg-white rounded-xl shadow-lg border border-gray-200 p-6 text-center">
-                    <div class="text-3xl font-bold text-accent-600 mb-2">40%</div>
+                    <div class="text-3xl font-bold text-primary-600 mb-2">40%</div>
                     <div class="text-gray-600">Reduced Production Bugs</div>
                     </div>
                 </div>
@@ -220,17 +232,17 @@
                 
                 <div class="card bg-white rounded-xl shadow-lg border border-gray-200 p-6 slide-up">
                     <div class="flex items-center mb-4">
-                        <div class="w-6 h-6 bg-indigo-600 rounded mr-3"></div>
+                        <div class="w-6 h-6 bg-warm-600 rounded mr-3"></div>
                         <h3 class="text-xl font-semibold">Tools & Technologies</h3>
                     </div>
                     <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Git</span>
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">GitHub</span>
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Postman</span>
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Power BI</span>
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Tableau</span>
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Ansible</span>
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Agile/Scrum</span>
+                        <span class="px-3 py-1 bg-warm-100 text-warm-700 rounded-full text-sm">Git</span>
+                        <span class="px-3 py-1 bg-warm-100 text-warm-700 rounded-full text-sm">GitHub</span>
+                        <span class="px-3 py-1 bg-warm-100 text-warm-700 rounded-full text-sm">Postman</span>
+                        <span class="px-3 py-1 bg-warm-100 text-warm-700 rounded-full text-sm">Power BI</span>
+                        <span class="px-3 py-1 bg-warm-100 text-warm-700 rounded-full text-sm">Tableau</span>
+                        <span class="px-3 py-1 bg-warm-100 text-warm-700 rounded-full text-sm">Ansible</span>
+                        <span class="px-3 py-1 bg-warm-100 text-warm-700 rounded-full text-sm">Agile/Scrum</span>
                     </div>
                 </div>
             </div>
@@ -282,14 +294,14 @@
                             continuous testing and used Power BI for defect trend analysis.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">Selenium</span>
-                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">OpenAI API</span>
-                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">Java</span>
-                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">Power BI</span>
-                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">CI/CD</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Selenium</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">OpenAI API</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Java</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Power BI</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">CI/CD</span>
                         </div>
                         <div class="flex items-center text-sm text-gray-600">
-                            <span class="font-semibold text-accent-600">Impact:</span>
+                            <span class="font-semibold text-primary-600">Impact:</span>
                             <span class="ml-2">60% reduction in manual effort, 35% improvement in early bug detection</span>
                         </div>
                     </div>
@@ -304,11 +316,11 @@
                             data-driven testing with reusable components and custom reporting.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Selenium WebDriver</span>
-                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Java</span>
-                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Data-Driven Testing</span>
-                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Custom Reporting</span>
-                            <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">CI/CD</span>
+                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">Selenium WebDriver</span>
+                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">Java</span>
+                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">Data-Driven Testing</span>
+                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">Custom Reporting</span>
+                            <span class="px-2 py-1 bg-accent-100 text-accent-700 rounded text-sm">CI/CD</span>
                         </div>
                         <div class="flex items-center text-sm text-gray-600">
                             <span class="font-semibold text-accent-600">Impact:</span>
@@ -339,7 +351,7 @@
                     <span>GitHub</span>
                 </a> 
                 -->
-                <a href="https://www.linkedin.com/in/durga-prasad-thota-6b7b8318b/" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-accent-600 hover:bg-accent-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
+                <a href="https://www.linkedin.com/in/durga-prasad-thota-6b7b8318b/" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-warm-600 hover:bg-warm-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
                     <span>💼</span>
                     <span>LinkedIn</span>
                 </a>
